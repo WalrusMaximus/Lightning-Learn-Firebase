@@ -1,5 +1,5 @@
 
-# <img src="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Ffirebaselogo.png?1554747103332" height="60">FireBase
+# <img src="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Ffirebaselogo.png?1554747103332" height="60">FireBase in 5 Minutes
 
 
 <!-- Place an a Screen Shoot of the app above this sentence. -->
