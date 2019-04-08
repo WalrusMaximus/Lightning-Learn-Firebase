@@ -25,7 +25,7 @@ To add Firebase to your app, you'll need a Firebase project and a short snippet 
 ##Below is an example initialization code snippet:
 
 
-#<img src='https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FFireBaseSDK.png?1554745322717' height='100'>
+<img src='https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FFireBaseSDK.png?1554745322717' height='2000'>
 
 
 
