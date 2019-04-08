@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+
+</head>
+<body>
+    <h1>Stuff</h1>
+        <form action="">
+            <input type="text" name="stuff" placeholder="add stuff here">
+            <input id="save" type="submit" name="submit" action="addStuff()">
+        </form>
+        <ul id="stuff">
+
+        </ul>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyC1BgqmXWYy78tmC4_ayKd_wuEzq5h4wJM",
+                authDomain: "lightning-learn-firebase.firebaseapp.com",
+                databaseURL: "https://lightning-learn-firebase.firebaseio.com",
+                projectId: "lightning-learn-firebase",
+                storageBucket: "lightning-learn-firebase.appspot.com",
+                messagingSenderId: "68758997338"
+            };
+            firebase.initializeApp(config);
+            const db = firebase.firestore();
+        </script>
+        <script>
+
+            const stuff = document.querySelector('#stuff');
+
+            function renderStuff(doc) {
+                let li = document.createElement('li');
+                let thing = document.createElement('span')
+
+                li.setAttribute('data-id', doc.id)
+
+                thing.textContent = doc.data().thing;
+
+                li.appendChild(thing);
+
+                stuff.appendChild(li);
+            }
+
+            db.collection('stuff').get().then((snapshot) => {
+                snapshot.docs.forEach(doc => {
+                    renderStuff(doc);
+                })
+            })
+
+        </script>
+</body>
+</html>
