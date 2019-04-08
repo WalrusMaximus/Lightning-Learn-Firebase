@@ -1,4 +1,5 @@
-##FireBase:
+
+# <img src="https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2Ffirebaselogo.png?1554747103332" height="60">FireBase
 
 
 <!-- Place an a Screen Shoot of the app above this sentence. -->
@@ -6,12 +7,12 @@ Firebase is a mobile and web application development platform developed by Fireb
 
 
 
-##Weaknesses
+## Weaknesses
 Shared data between used will not be updated right away for all users unless specified.
 JSON objects can be nested 32 levels deep so navigating the database can be difficult
 Not adapted by big enterprises yet
 
-##Strengths
+## Strengths
 Data is nosql ( tree structure) which allows it to access the data extremely quickly.
 Firebase authentication is built on  auth 2.0 so apps can handle email, password combinations, and oauth tokens ( also from other authorized providers) securely.
 Ability to configure security and data modeling in a console.
