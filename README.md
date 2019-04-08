@@ -1,8 +1,22 @@
-#FireBase
+##FireBase:
 
 
 <!-- Place an a Screen Shoot of the app above this sentence. -->
 Firebase is a mobile and web application development platform developed by Firebase, Inc. in 2011, then acquired by Google in 2014. As of October 2018, the Firebase platform has 18 products, which are used by 1.5 million apps.
+
+
+
+##Weaknesses
+Shared data between used will not be updated right away for all users unless specified.
+JSON objects can be nested 32 levels deep so navigating the database can be difficult
+Not adapted by big enterprises yet
+
+##Strengths
+Data is nosql ( tree structure) which allows it to access the data extremely quickly.
+Firebase authentication is built on  auth 2.0 so apps can handle email, password combinations, and oauth tokens ( also from other authorized providers) securely.
+Ability to configure security and data modeling in a console.
+Ability to implement microservices with NodeJS (called functions in firebase)
+
 
 
 ## Prerequisites:
@@ -25,7 +39,7 @@ To add Firebase to your app, you'll need a Firebase project and a short snippet 
 ##Below is an example initialization code snippet:
 
 
-<img src='https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FFireBaseSDK.png?1554745322717' height='2000'>
+<img src='https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FFireBaseSDK.png?1554745322717' height='500'>
 
 
 
