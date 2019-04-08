@@ -26,7 +26,7 @@ Ability to implement microservices with NodeJS (called functions in firebase)
 Before you begin, you'll need a JavaScript (web or Node.js) app to add Firebase to. If you don't have an app already, you can download one of the Firebase's [Quickstart samples.](https://firebase.google.com/docs/samples/?hl=th#web)
 
 
-#Add Firebase to your app
+# Add Firebase to your app
 To add Firebase to your app, you'll need a Firebase project and a short snippet of initialization code that has a few details about your project.
 
 1. Create a Firebase project in the [Firebase Console.](https://console.firebase.google.com/u/0/?hl=th&pli=1) 
@@ -37,7 +37,7 @@ To add Firebase to your app, you'll need a Firebase project and a short snippet 
 
 3. Copy and paste your project's customized code snippet in the <head> tag of your page, before other script tags.
 
-##Below is an example initialization code snippet:
+## Below is an example initialization code snippet:
 
 
 <img src='https://cdn.glitch.com/b75055dd-03c2-47e5-9f5d-7923ac439cc1%2FFireBaseSDK.png?1554745322717' height='500'>
@@ -48,7 +48,7 @@ To add Firebase to your app, you'll need a Firebase project and a short snippet 
 
 
 
-#Run a local web server for development
+# Run a local web server for development
 
 If you're building a web app, some parts of the Firebase JavaScript SDK require that your web app be served from a server rather than from the local filesystem. You can use the Firebase CLI to run a local server like this:
 
@@ -59,14 +59,14 @@ $ firebase serve   # Start development server`
 ```
 
 
-#Host your web app using Firebase Hosting
+# Host your web app using Firebase Hosting
 
 If you're building a web app and your web app is entirely static content, you can deploy it using [Firebase Hosting.](https://firebase.google.com/docs/hosting/).
 
 Firebase Hosting is a developer-focused static web hosting for modern front-end web applications. Using Firebase Hosting, you can deploy SSL-enabled web apps to your own domain on a global content delivery network (CDN) using a single command.
 
 
-##SDK imports and implicit initialization
+## SDK imports and implicit initialization
 
 Web apps hosted with Firebase Hosting can benefit from [simpler project configuration](https://firebase.google.com/docs/hosting/). Paste the following code snippets into your application HTML to import the Firebase SDK and configure it automatically for the project your app is hosted on:
 
@@ -89,7 +89,7 @@ Web apps hosted with Firebase Hosting can benefit from [simpler project configur
 ```
 
 
-##Initialize multiple apps
+## Initialize multiple apps
 
 
 In most cases, you only have to initialize a single, default app. You can access services from that app in two equivalent ways:
@@ -134,7 +134,7 @@ var otherStorage = otherApp.storage();
 var otherDatabase = otherApp.database();
 ```
 
-##Next steps
+## Next steps
 
 Learn about Firebase:
 
