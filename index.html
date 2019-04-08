@@ -37,19 +37,8 @@
         </script>
         <script>
 
-            const stuff = document.querySelector('#stuff');
-
             function renderStuff(doc) {
-                let li = document.createElement('li');
-                let thing = document.createElement('span')
-
-                li.setAttribute('data-id', doc.id)
-
-                thing.textContent = doc.data().thing;
-
-                li.appendChild(thing);
-
-                stuff.appendChild(li);
+                $('#stuff').append(`<li data="${doc.data().id}">${doc.data().thing}</li>`)
             }
 
             db.collection('stuff').get().then((snapshot) => {
