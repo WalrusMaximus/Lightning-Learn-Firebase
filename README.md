@@ -138,7 +138,7 @@ var otherDatabase = otherApp.database();
 
 Learn about Firebase:
 
-- Explore [sample Firebase apps] (https://firebase.google.com/docs/samples/)
+- Explore [sample Firebase apps](https://firebase.google.com/docs/samples/)
 - Get hands-on experience with the [Firebase Web Codelab.](https://codelabs.developers.google.com/codelabs/firebase-web/)
 - Explore the [open source code in GitHub](https://github.com/firebase/firebase-js-sdk)
 
